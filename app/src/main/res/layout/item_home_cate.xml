@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:id="@+id/cate_item_layout"
+    >
+
+    <ImageView
+        android:id="@+id/icon_iv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="4dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon_iv"
+        android:layout_toRightOf="@+id/icon_iv"
+        android:textSize="18sp"
+        android:textColor="#323232"
+        android:maxLines="2"
+        tools:text="你好房价开始疯狂就老三书法课假公济私反馈房价"
+        />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#a7a7a7"
+        tools:text="KT"
+        android:layout_toRightOf="@+id/icon_iv"
+        android:layout_alignBottom="@+id/icon_iv"
+        />
+
+    <TextView
+        android:id="@+id/cate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#a7a7a7"
+        tools:text="kotlin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#a7a7a7"
+        tools:text="kotlin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        />
+
+</RelativeLayout>
