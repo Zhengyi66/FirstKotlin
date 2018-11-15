@@ -9,6 +9,6 @@ mvp架构参考了 KotlinMvp ：https://github.com/git-xuhao/KotlinMvp
 
 Demo截图：
 
-![图片说明1](https://github.com/Zhengyi66/FirstKotlin/img/ic_home.jpeg)
+![首页](https://github.com/Zhengyi66/FirstKotlin/blob/master/img/ic_home.jpeg)
 
-![图片说明1](https://github.com/Zhengyi66/FirstKotlin/img/ic_girl.jpeg)
+![妹子](https://github.com/Zhengyi66/FirstKotlin/blob/master/img/ic_girl.jpeg)
